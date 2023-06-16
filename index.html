@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RANDOM QUOTE MACHINE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="quote-box">
+        <blockquote class="blockquote text-center" id="block-quote">
+          <p class="text-capitalize">
+            <i class="fa fa-quote-left fa-2x mr-3"></i>
+            <span id="text"></span>
+             
+          </p>
+          <footer class="blockquote-footer text-left" id="author">
+            Ernest
+          </footer>
+        </blockquote>
+
+        <div class="buttons">
+          <div class="ml-4 social-div">
+            <a href="https://twitter.com/intent/tweet" target="blank" id="tweet-quote"
+              ><button type="button" class="btn bg-danger">
+                <i class="fa fa-twitter text-white"></i></button
+            ></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="blank"
+              ><button type="button" class="btn bg-danger">
+                <i class="fa fa-facebook text-white"></i></button
+            ></a>
+          </div>
+          <button class="btn btn-danger mr-4" id="new-quote">
+            New Quote
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html
